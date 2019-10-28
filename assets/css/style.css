@@ -13,6 +13,23 @@ img, p  {
     float:left;
 }
 
+#movie-form {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#gifcreate {
+    border: solid 1px black;
+    border-radius: 10%;
+    margin: 1em; 
+}
+
+#gifcreate:hover {
+    background-color: black;
+    color: white; 
+}
+
 .buttoncontainer {
      widows: 100%;
      display: flex; 
@@ -24,9 +41,9 @@ img, p  {
 }
 
 .gifcontainer {
-    width:100%;
-    position: absolute;
-    height: 100px; 
-    align-content: center;  
+ display: grid; 
+ grid-template-columns: 1fr 1fr 1fr;
+ justify-items: center;
+ align-items: center;
 }
 

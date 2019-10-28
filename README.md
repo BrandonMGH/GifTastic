@@ -1,6 +1,6 @@
 # GifTastic #
 
-This is an app that exists solely to allow users to create a button that will call the giphy API and dynamically populate the results from that API call into the DOM.  Stock buttons have been created associated with various Star Wars characters.  Have fun :) 
+This is an app that exists solely to allow users to create a button that will call the giphy API and dynamically populate the results from that API call into the DOM.  Stock buttons have been created associated with various Star Wars characters.  Make sure you click on each individual gif to see it run.  Have fun :) 
 
 ## TECHNOLOGIES USE ##
 

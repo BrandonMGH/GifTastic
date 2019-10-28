@@ -49,9 +49,10 @@ $(document).on("click", "#gifcreate", function () {
       
 
 
-        $(gifDiv).append(p);
+      
         $(gifDiv).append(characterImage);
-        $(".col-lg-9").prepend(gifDiv);
+        $(gifDiv).append(p);
+        $(".gifcontainer").prepend(gifDiv);
 
     
 
@@ -73,7 +74,7 @@ function generateInitGif() {
   for (var i = 0; i < topics.length; i++) {
 
 
-    var createdButton = $("<button id=gifcreate></button>")
+    var createdButton = $("<button id=gifcreate type=button class=btn btn-outline-secondary></button>")
 
     createdButton.addClass("Character");
 
