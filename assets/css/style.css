@@ -19,7 +19,16 @@ img, p  {
     justify-content: center;
 }
 
-#gifcreate {
+#add-character{
+    background-color: white; 
+}
+
+#add-character:hover {
+    background-color: black;
+    color: white; 
+}
+
+#gifcreate{
     border: solid 1px black;
     border-radius: 10%;
     margin: 1em; 
